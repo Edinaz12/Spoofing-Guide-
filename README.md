@@ -19,32 +19,8 @@ This repository references extended documentation hosted here:
 
 That documentation is considered part of the extended knowledge base and may include additional context, definitions, and structured breakdowns of related topics.
 
-## Objectives
 
-* Understand underlying mechanisms of spoofing techniques
-* Identify attack surfaces and trust boundaries
-* Analyze detection and mitigation strategies
-* Improve defensive security awareness in network and application layers
 
-## Threat Modeling Perspective
-
-Spoofing is analyzed as a trust boundary violation problem:
-
-* Trust at Layer 2 (ARP/MAC)
-* Trust at Layer 3 (IP routing assumptions)
-* Trust at Application Layer (headers, identity tokens)
-* Trust in DNS resolution systems
-
-## Defensive Controls
-
-Common mitigation strategies include:
-
-* Ingress and egress filtering (BCP38)
-* ARP inspection and switch-level validation
-* DNSSEC for authenticated resolution
-* TLS-based identity verification
-* Email authentication frameworks (SPF, DKIM, DMARC)
-* Zero Trust Network Architecture (ZTNA)
 
 
 ## Usage Context
